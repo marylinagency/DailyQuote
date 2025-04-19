@@ -1,0 +1,19 @@
+{
+  "dir": "rtl",
+  "lang": "en",
+  "start_url": "https://dailyquoteinspire.netlify.app/",
+  "orientation": "portrait",
+  "display": "fullscreen",
+  "iarc_rating_id": "2",
+  "prefer_related_applications": false,
+  "name": "Daily Quote",
+  "theme_color": "#0045ec",
+  "background_color": "#ffffff",
+  "short_name": "Daily_quote",
+  "id": "daily_quote",
+  "description": "Daily Quote \nInspire Your Day!",
+  "display_override": [
+    "fullscreen",
+    "window-controls-overlay"
+  ]
+}
