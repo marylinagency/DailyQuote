@@ -1,19 +1,34 @@
 {
   "dir": "rtl",
   "lang": "en",
-  "start_url": "https://dailyquoteinspire.netlify.app/",
+  "start_url": "/",
   "orientation": "portrait",
-  "display": "fullscreen",
-  "iarc_rating_id": "2",
-  "prefer_related_applications": false,
+  "display": "standalone",
   "name": "Daily Quote",
+  "short_name": "DailyQuote",
+  "id": "/",
+  "description": "Daily Quote – Inspire Your Day!",
   "theme_color": "#0045ec",
   "background_color": "#ffffff",
-  "short_name": "Daily_quote",
-  "id": "daily_quote",
-  "description": "Daily Quote \nInspire Your Day!",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
   "display_override": [
     "fullscreen",
     "window-controls-overlay"
-  ]
+  ],
+  "categories": [
+    "books",
+    "utilities"
+  ],
+  "prefer_related_applications": false
 }
